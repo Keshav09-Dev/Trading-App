@@ -1,0 +1,23 @@
+// src/utils/traderData.js
+export const traders = [
+  { id: 1, name: "Ishaan M.", returnPercent: 4.42, profit: 441.65 },
+  { id: 2, name: "Devraj W.", returnPercent: 3.36, profit: -3360.93 },
+  { id: 3, name: "Dinesh S.", returnPercent: 1.31, profit: 328.38 },
+  { id: 4, name: "Arvind A.", returnPercent: 1.26, profit: -125.65 },
+  { id: 5, name: "Gaurav T.", returnPercent: 1.07, profit: 537.34 },
+  { id: 6, name: "Gautam S.", returnPercent: 1.03, profit: 515.57 },
+  { id: 7, name: "Girish V.", returnPercent: 1.01, profit: -503.94 },
+  { id: 8, name: "Tarun K.", returnPercent: 0.96, profit: 1928.56 },
+  { id: 9, name: "Chandan R.", returnPercent: 0.92, profit: 924.24 },
+  { id: 10, name: "Jaspreet U.", returnPercent: 0.85, profit: -425.68 },
+  { id: 11, name: "Rakhi Z.", returnPercent: 0.8, profit: 789.12 },
+  { id: 12, name: "Lalit P.", returnPercent: 0.78, profit: 123.45 },
+  { id: 13, name: "Tanmay L.", returnPercent: 0.75, profit: -321.55 },
+  { id: 14, name: "Amit J.", returnPercent: 0.7, profit: 276.48 },
+  { id: 15, name: "Nisha F.", returnPercent: 0.68, profit: 154.75 },
+  { id: 16, name: "Vikram K.", returnPercent: 0.62, profit: -217.34 },
+  { id: 17, name: "Esha D.", returnPercent: 0.58, profit: 113.24 },
+  { id: 18, name: "Sonia L.", returnPercent: 0.5, profit: -503.22 },
+  { id: 19, name: "Ishwar T.", returnPercent: 0.48, profit: 295.44 },
+  { id: 20, name: "Ojasvi G.", returnPercent: 0.45, profit: -200.31 },
+];
