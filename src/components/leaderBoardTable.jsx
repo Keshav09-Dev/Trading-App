@@ -13,7 +13,7 @@ const LeaderboardTable = ({ traders = [], onSelectTrader }) => {
     <table className="w-full border-collapse">
       <thead>
         <tr className="bg-gray-200">
-          <th className="border p-2">Rank</th> {/* Rank column */}
+          <th className="border p-2">Rank</th>
           <th className="border p-2">Name</th>
           <th className="border p-2">Return %</th>
           <th className="border p-2">Profit</th>
@@ -24,10 +24,9 @@ const LeaderboardTable = ({ traders = [], onSelectTrader }) => {
           <tr
             key={trader.id}
             className="cursor-pointer hover:bg-gray-100"
-            onClick={() => onSelectTrader(trader.id)} // Trigger the trader selection
+            onClick={() => onSelectTrader(trader.id)}
           >
-            <td className="border p-2">{index + 1}</td>{" "}
-            {/* Rank based on index */}
+            <td className="border p-2">{index + 1}</td>
             <td className="border p-2">{trader.name}</td>
             <td className="border p-2">{trader.returnPercent}</td>
             <td className="border p-2">{trader.profit.toFixed(2)}</td>

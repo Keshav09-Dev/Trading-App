@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import PerformanceChart from "../components/performanceChart";
-import LeaderboardTable from "../components/LeaderboardTable";
+import LeaderboardTable from "../components/leaderBoardTable";
 import { traders } from "../utils/traderData";
 
 const Dashboard = () => {

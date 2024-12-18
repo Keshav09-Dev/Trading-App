@@ -68,8 +68,7 @@ const Navbar = () => {
         <div className="nav-dialog fixed bg-white inset-0 z-50">
           <div className="navbar flex items-center justify-between p-2">
             <button className="flex items-center gap-2">
-              <img src="/assets/asset 0.png" alt="logo" className="w-12 h-12" />
-              <h1 className="font-medium">ToDesktop</h1>
+              <img src="/logo.png" alt="logo" className="w-12 h-12" />
             </button>
 
             <img
@@ -80,36 +79,24 @@ const Navbar = () => {
             />
           </div>
 
-          <div className="navlink mt-3 flex flex-col items-start text-left">
+          <div className="navlink mt-3 gap-2 flex flex-col items-start text-left">
             <a
               href="#"
-              className="p-4 font-medium hover:text-blue-600 block w-full hover:bg-gray-50"
+              className="p-4 bg-gray-50 text-center font-medium hover:text-blue-600 block w-full hover:bg-gray-50"
             >
               Competitions
             </a>
             <a
               href="#"
-              className="p-4 font-medium hover:text-blue-600 block w-full hover:bg-gray-50"
+              className="p-4 bg-gray-50  text-center font-medium hover:text-blue-600 block w-full hover:bg-gray-50"
             >
               Leaderboard
             </a>
             <a
               href="#"
-              className="p-4 font-medium hover:text-blue-600 block w-full hover:bg-gray-50"
+              className="p-4 bg-gray-50 text-center font-medium hover:text-blue-600 block w-full hover:bg-gray-50"
             >
-              Pricing
-            </a>
-            <a
-              href="#"
-              className="p-4 font-medium hover:text-blue-600 block w-full hover:bg-gray-50"
-            >
-              Docs
-            </a>
-            <a
-              href="#"
-              className="p-4 font-medium hover:text-blue-600 block w-full hover:bg-gray-50"
-            >
-              Login
+              Live Support
             </a>
           </div>
         </div>
